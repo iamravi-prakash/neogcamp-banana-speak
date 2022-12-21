@@ -1,9 +1,5 @@
-console.log("Hello! hru");
+var btnTranslate = document.querySelector("#click");
 
-prompt("r u 18+?");
-
-var username = prompt("give me username");
-
-var welcomeMesseage = "this script is working " + username;
-
-alert(welcomeMesseage);
+btnTranslate.addEventListener("click", function clickEvent() {
+  console.log("clicked!");
+});
